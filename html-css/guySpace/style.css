@@ -1,0 +1,41 @@
+body {
+    background-image: url('natural-wood-grain-texture-background-photo.webp');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    font-weight: bold;
+    color: coral;
+}
+
+h1 {
+    color: azure;
+    background-color: blue;
+    padding: 10px;
+    border: 10px solid blue;
+}
+
+img {
+    border-radius: 15px;
+    border: 5px solid red;
+}
+
+p {
+    border: solid salmon 5px;
+    background-color: aquamarine;
+}
+
+.pfpBlock {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    border: 10px solid crimson;
+    border-radius: 15px;
+    outline: 2px red;
+    padding: 15px;
+    margin: 20px 350px 20px 20px;
+}
+
+.pfpBlock img {
+    flex-shrink: 0;
+    max-width: 200px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Jim's Survey Form</h1>
+    <p id="description">Let me know how I'm doing!</p>
+    <form id="survey-form">
+      <label for="name-label">Name:</label>
+      <input type="text" id="name-label" name="name" placeholder="ex. John Smith" required />
+      <label for="email"><br>Email:</label>
+      <input type="email" id="email-label" name="email" placeholder="ex. name@email.com" required />
+      <label for="age"><br>Age (optional):</label>
+      <input type="number" id="age" name="age" min="0" max="100" cols="3" placeholder="ex. 25" />
+      <p>What I lack in looks, I also lack in:</p>
+      <select id="dropdown">
+        <option value="">Select</option>
+        <option value="smarts">Smarts</option>
+        <option value="looks">Looks</option>
+      </select>
+      <p>What's your favorite color:</p>
+      <label for="red">Red</label>
+      <input type="radio" name="choice" id="red" value="red" />
+      <label for="blue">Blue</label>
+      <input type="radio" name="choice" id="blue" value="blue" />
+      <p>What foods do I like?</p>
+      <label for="tacos">Tacos</label>
+      <input type="checkbox" name="tacos" id="tacos" value="tacos" checked />
+      <label for="sandwich">Sandwich</label>
+      <input type="checkbox" name="sandwich" id="sandwich" value="sandwich" checked />
+      <label for="worms">Worms</label>
+      <input type="checkbox" name="worms" id="worms" value="worms" />
+      
+    </form>
+  </body>
+</html>
