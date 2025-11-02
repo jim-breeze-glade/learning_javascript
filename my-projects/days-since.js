@@ -1,7 +1,7 @@
 // Does not have error handling! You should just test in production!
 
-const targetDate = "2025-10-22"; // Days since date
-const currDate = "2025-12-21";  // Current date
+const targetDate = "2025-07-10"; // Days since date
+const currDate = "2025-11-01";  // Current date
 
 // Lookup values for day of the year for first day of each month
 const dayOfYear = {
