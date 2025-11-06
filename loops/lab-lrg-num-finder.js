@@ -1,20 +1,6 @@
-/* function sortSubArrs(arr) {
-  for (let i = 0; i < arr.length; i++) {
-    arr[i].sort((a, b) => a - b)
-  }
-  return arr;
-}
-*/
-
 function largestOfAll(arr) {
-/*  const sortedArr = sortSubArrs(arr);
   let newArr = [];
 
-  for (let i = 0; i < sortedArr.length; i++) {
-    newArr.push(sortedArr[i].pop());
-  }
-  */
-  let newArr = [];
   for (let i = 0; i < arr.length; i++) {
     newArr.push(arr[i].sort((a, b) => a - b).pop());
   }
