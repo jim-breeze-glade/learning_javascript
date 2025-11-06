@@ -1,3 +1,5 @@
+// Takes array and returns largest values in subarrays
+
 function largestOfAll(arr) {
   let newArr = [];
 
