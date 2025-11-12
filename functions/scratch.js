@@ -1,7 +1,6 @@
-function sumOfTwo(a, b) {
-  let sum = a + b;
-  return sum;
-}
+const str = 'javaScript is fun';
+const splitStr = str.split(' ');
 
-console.log(sumOfTwo(1, 2));
-console.log(sum);
+const upperLetter = splitStr[0].replace(splitStr[0].charAt(0), splitStr[0].charAt(0).toUpperCase());
+
+console.log(upperLetter);
