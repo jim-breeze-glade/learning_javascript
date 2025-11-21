@@ -1,6 +1,7 @@
-const str = 'javaScript is fun';
-const splitStr = str.split(' ');
+const str = "ATCGA";
+let arr = [];
+arr.push("a","b");
+arr.push(["c", "d"]);
+console.log(arr);
+console.log(str[2]);
 
-const upperLetter = splitStr[0].replace(splitStr[0].charAt(0), splitStr[0].charAt(0).toUpperCase());
-
-console.log(upperLetter);
