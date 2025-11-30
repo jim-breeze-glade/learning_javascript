@@ -1,20 +1,26 @@
 function sumFibs(n) {
-  let a = 0;
-  let b = 1;
-  if (n === 0) {
-    return a;
-  }
-  if (n === 1) {
-    return b;
-  }
-  for (let i = 2; i <= n; i++) {
-    if (a%2 !== 0 && b%2 !== 0) {
-      let next = a + b;
-      a = b;
-      b = next;
-    }
-  }
-  return b;
-}
+  let sum = 0;
+  let prev = 0;
+  let curr = 1;
 
-console.log(sumFibs(4));
+  if (curr <= n && curr % 2 !== 0) {
+    sum += curr;
+  }
+
+  while (true) {
+    let next = prev + curr;
+
+    if (next > n) break;
+
+    if (next % 2 !== 0) {
+      sum += next;
+    }
+    
+    prev = curr;
+    curr = next;
+  }
+
+  return sum;
+} 
+
+console.log(sumFibs(1000));

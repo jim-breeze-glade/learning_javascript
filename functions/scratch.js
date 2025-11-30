@@ -1,7 +1,4 @@
-const str = "ATCGA";
-let arr = [];
-arr.push("a","b");
-arr.push(["c", "d"]);
-console.log(arr);
-console.log(str[2]);
+const arr = [1, 2, 3];
+arr[4] = 4;
 
+console.log(arr);
