@@ -9,13 +9,14 @@ function isPrime(n) {
   return true;
 }
 
-function nthPrime(n) {
-  let arr = [];
-  for (let i = 0; arr.length < n; i++) {
+function sumPrimes(n) {
+  let sum = 0;
+  for (let i = 0; i <= n; i++) {
     if (isPrime(i)) {
-      arr.push(i);
+      sum += i;
     }
   }
-  return arr.pop();
+  return sum;
 }
-console.log(nthPrime(10)); // higher than 5 million hasn't been tested, 50 million won't run lol
+
+console.log(sumPrimes(1));

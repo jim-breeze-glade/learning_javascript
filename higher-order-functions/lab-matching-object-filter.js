@@ -1,7 +1,6 @@
-function whatIsInAName(arr, src) {
-  
-  let name = arr.filter(obj => !arr.includes(src));
-  return name;
+function whatIsInAName(arr, criteria) {
+  return arr.filter(obj => Object.entries(criteria)
+    .every(([key, value]) => obj[key] === value));
 }
 
 console.log(whatIsInAName(

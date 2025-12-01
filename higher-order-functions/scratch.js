@@ -1,5 +1,4 @@
-let arr = [{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }];
+const words = ['apple', 'banana', 'pear', 'kiwi'];
+const shortWords = words.filter(word => word.length <= 5);
 
-//console.log(arr[2].includes({last: "Capulet"}));
-console.log(arr[2].hasOwn)
-
+console.log(shortWords);
