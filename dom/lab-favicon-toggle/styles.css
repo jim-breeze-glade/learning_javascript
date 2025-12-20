@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.filled {
+  color: red;
+}
